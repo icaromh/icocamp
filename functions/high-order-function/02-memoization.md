@@ -39,6 +39,13 @@ function memorizar(funcao) {
     // 3. Se não, execute a funcao(entrada), salve nos dois arrays e retorne.
   };
 }
+
+const calculoPesado = (n) => {
+  return n * 2;
+};
+const dobroMemo = memorizar(calculoPesado);
+dobroMemo(100);
+dobroMemo(100);
 ```
 
 <details>
