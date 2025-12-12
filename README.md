@@ -44,4 +44,3 @@
 ### Carrinho de Compras
 
 - [ ] [1. Carrinho de compras](./desafios/carrinho-compras/01-carrinho-compras.md) ([solução](./solutions/desafios/carrinho-compras/01-carrinho-compras.js))
-- [ ] [1. Carrinho de compras](./desafios/1.carrinho-compras.md) ([solução](./desafios/1.carrinho-compras.js))
