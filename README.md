@@ -2,6 +2,48 @@
 
 <img src="/docs/cover.png" width="200px">
 
+## 📦 Objects
+
+### Básico
+
+|  #  | Status | Dificuldade | Exercício                                                                   |                                 Solução                                  |
+| :-: | :----: | :---------: | :-------------------------------------------------------------------------- | :----------------------------------------------------------------------: |
+|  1  |  [ ]   |     🟢      | [Criando Objetos](./objects/basico/01-criando-objetos.md)                   |     [Ver Solução](./solutions/objects/basico/01-criando-objetos.js)      |
+|  2  |  [ ]   |     🟢      | [Acessando Propriedades](./objects/basico/02-acessando-propriedades.md)     |  [Ver Solução](./solutions/objects/basico/02-acessando-propriedades.js)  |
+|  3  |  [ ]   |     🟢      | [Modificando Valores](./objects/basico/03-modificando-valores.md)           |   [Ver Solução](./solutions/objects/basico/03-modificando-valores.js)    |
+|  4  |  [ ]   |     🟢      | [Adicionando Propriedades](./objects/basico/04-adicionando-propriedades.md) | [Ver Solução](./solutions/objects/basico/04-adicionando-propriedades.js) |
+|  5  |  [ ]   |     🟢      | [Removendo Propriedades](./objects/basico/05-removendo-propriedades.md)     |  [Ver Solução](./solutions/objects/basico/05-removendo-propriedades.js)  |
+
+### Métodos e Contexto
+
+|  #  | Status | Dificuldade | Exercício                                                          |                              Solução                               |
+| :-: | :----: | :---------: | :----------------------------------------------------------------- | :----------------------------------------------------------------: |
+|  6  |  [ ]   |     🟢      | [Criando Métodos](./objects/metodos/01-criando-metodos.md)         |  [Ver Solução](./solutions/objects/metodos/01-criando-metodos.js)  |
+|  7  |  [ ]   |     🟢      | [Usando `this`](./objects/metodos/02-usando-this.md)               |    [Ver Solução](./solutions/objects/metodos/02-usando-this.js)    |
+|  8  |  [ ]   |     🟢      | [Método com Parâmetros](./objects/metodos/03-metodo-parametros.md) | [Ver Solução](./solutions/objects/metodos/03-metodo-parametros.js) |
+|  9  |  [ ]   |     🟢      | [Atualizando com `this`](./objects/metodos/04-atualizando-this.md) | [Ver Solução](./solutions/objects/metodos/04-atualizando-this.js)  |
+| 10  |  [ ]   |     🟢      | [Chamada de Método](./objects/metodos/05-chamada-metodo.md)        |  [Ver Solução](./solutions/objects/metodos/05-chamada-metodo.js)   |
+
+### Iteração (for...in)
+
+|  #  | Status | Dificuldade | Exercício                                                                    |                                   Solução                                   |
+| :-: | :----: | :---------: | :--------------------------------------------------------------------------- | :-------------------------------------------------------------------------: |
+| 11  |  [ ]   |     🟡      | [Listando Chaves](./objects/loop-for-in/01-listando-chaves.md)               |    [Ver Solução](./solutions/objects/loop-for-in/01-listando-chaves.js)     |
+| 12  |  [ ]   |     🟡      | [Somando Valores](./objects/loop-for-in/02-somando-valores.md)               |    [Ver Solução](./solutions/objects/loop-for-in/02-somando-valores.js)     |
+| 13  |  [ ]   |     🟡      | [Filtrando Propriedades](./objects/loop-for-in/03-filtrando-propriedades.md) | [Ver Solução](./solutions/objects/loop-for-in/03-filtrando-propriedades.js) |
+| 14  |  [ ]   |     🟡      | [Contando Propriedades](./objects/loop-for-in/04-contando-propriedades.md)   | [Ver Solução](./solutions/objects/loop-for-in/04-contando-propriedades.js)  |
+| 15  |  [ ]   |     🟡      | [Verificando Existência](./objects/loop-for-in/05-verificando-existencia.md) | [Ver Solução](./solutions/objects/loop-for-in/05-verificando-existencia.js) |
+
+### Desafios Reais
+
+|  #  | Status | Dificuldade | Exercício                                                                |                                  Solução                                  |
+| :-: | :----: | :---------: | :----------------------------------------------------------------------- | :-----------------------------------------------------------------------: |
+| 16  |  [ ]   |     🟡      | [Conta Bancária](./objects/desafios-reais/01-conta-bancaria.md)          |  [Ver Solução](./solutions/objects/desafios-reais/01-conta-bancaria.js)   |
+| 17  |  [ ]   |     🟡      | [Lista de Tarefas](./objects/desafios-reais/02-lista-tarefas.md)         |   [Ver Solução](./solutions/objects/desafios-reais/02-lista-tarefas.js)   |
+| 18  |  [ ]   |     🟡      | [Estoque de Loja](./objects/desafios-reais/03-estoque-loja.md)           |   [Ver Solução](./solutions/objects/desafios-reais/03-estoque-loja.js)    |
+| 19  |  [ ]   |     🟡      | [Média do Aluno](./objects/desafios-reais/04-media-aluno.md)             |    [Ver Solução](./solutions/objects/desafios-reais/04-media-aluno.js)    |
+| 20  |  [ ]   |     🟡      | [Relatório de Usuário](./objects/desafios-reais/05-relatorio-usuario.md) | [Ver Solução](./solutions/objects/desafios-reais/05-relatorio-usuario.js) |
+
 ## 📝 Functions
 
 ### Callback Function
