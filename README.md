@@ -1,4 +1,6 @@
-# icocamp
+# Ico Camp
+
+<img src="/docs/cover.png" width="200px">
 
 ## 📝 Functions
 
