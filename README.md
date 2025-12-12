@@ -8,28 +8,28 @@
 
 |  #  | Status | Dificuldade | Exercício                                                                   |                                 Solução                                  |
 | :-: | :----: | :---------: | :-------------------------------------------------------------------------- | :----------------------------------------------------------------------: |
-|  1  |  [ ]   |     🟢      | [Criando Objetos](./objects/basico/01-criando-objetos.md)                   |     [Ver Solução](./solutions/objects/basico/01-criando-objetos.js)      |
-|  2  |  [ ]   |     🟢      | [Acessando Propriedades](./objects/basico/02-acessando-propriedades.md)     |  [Ver Solução](./solutions/objects/basico/02-acessando-propriedades.js)  |
-|  3  |  [ ]   |     🟢      | [Modificando Valores](./objects/basico/03-modificando-valores.md)           |   [Ver Solução](./solutions/objects/basico/03-modificando-valores.js)    |
-|  4  |  [ ]   |     🟢      | [Adicionando Propriedades](./objects/basico/04-adicionando-propriedades.md) | [Ver Solução](./solutions/objects/basico/04-adicionando-propriedades.js) |
-|  5  |  [ ]   |     🟢      | [Removendo Propriedades](./objects/basico/05-removendo-propriedades.md)     |  [Ver Solução](./solutions/objects/basico/05-removendo-propriedades.js)  |
+|  1  |  [ ]   |     🟢      | [O Vazio](./objects/basico/01-o-vazio.md)                                   |         [Ver Solução](./solutions/objects/basico/01-o-vazio.js)          |
+|  2  |  [ ]   |     🟢      | [O Primeiro Objeto](./objects/basico/02-primeiro-objeto.md)                 |     [Ver Solução](./solutions/objects/basico/02-primeiro-objeto.js)      |
+|  3  |  [ ]   |     🟢      | [Acesso com Ponto](./objects/basico/03-acesso-ponto.md)                     |       [Ver Solução](./solutions/objects/basico/03-acesso-ponto.js)       |
+|  4  |  [ ]   |     🟢      | [Acesso com Colchetes](./objects/basico/04-acesso-colchetes.md)             |     [Ver Solução](./solutions/objects/basico/04-acesso-colchetes.js)     |
+|  5  |  [ ]   |     🟢      | [Adicionando Propriedades](./objects/basico/05-adicionando-propriedades.md) | [Ver Solução](./solutions/objects/basico/05-adicionando-propriedades.js) |
 
 ### Métodos e Contexto
 
 |  #  | Status | Dificuldade | Exercício                                                          |                              Solução                               |
 | :-: | :----: | :---------: | :----------------------------------------------------------------- | :----------------------------------------------------------------: |
-|  6  |  [ ]   |     🟢      | [Criando Métodos](./objects/metodos/01-criando-metodos.md)         |  [Ver Solução](./solutions/objects/metodos/01-criando-metodos.js)  |
+|  6  |  [ ]   |     🟢      | [O Método Simples](./objects/metodos/01-metodo-simples.md)         |  [Ver Solução](./solutions/objects/metodos/01-metodo-simples.js)   |
 |  7  |  [ ]   |     🟢      | [Usando `this`](./objects/metodos/02-usando-this.md)               |    [Ver Solução](./solutions/objects/metodos/02-usando-this.js)    |
 |  8  |  [ ]   |     🟢      | [Método com Parâmetros](./objects/metodos/03-metodo-parametros.md) | [Ver Solução](./solutions/objects/metodos/03-metodo-parametros.js) |
-|  9  |  [ ]   |     🟢      | [Atualizando com `this`](./objects/metodos/04-atualizando-this.md) | [Ver Solução](./solutions/objects/metodos/04-atualizando-this.js)  |
-| 10  |  [ ]   |     🟢      | [Chamada de Método](./objects/metodos/05-chamada-metodo.md)        |  [Ver Solução](./solutions/objects/metodos/05-chamada-metodo.js)   |
+|  9  |  [ ]   |     🟢      | [Objetos Aninhados](./objects/metodos/04-objetos-aninhados.md)     | [Ver Solução](./solutions/objects/metodos/04-objetos-aninhados.js) |
+| 10  |  [ ]   |     🟢      | [Acesso Profundo](./objects/metodos/05-acesso-profundo.md)         |  [Ver Solução](./solutions/objects/metodos/05-acesso-profundo.js)  |
 
 ### Iteração (for...in)
 
 |  #  | Status | Dificuldade | Exercício                                                                    |                                   Solução                                   |
 | :-: | :----: | :---------: | :--------------------------------------------------------------------------- | :-------------------------------------------------------------------------: |
 | 11  |  [ ]   |     🟡      | [Listando Chaves](./objects/loop-for-in/01-listando-chaves.md)               |    [Ver Solução](./solutions/objects/loop-for-in/01-listando-chaves.js)     |
-| 12  |  [ ]   |     🟡      | [Somando Valores](./objects/loop-for-in/02-somando-valores.md)               |    [Ver Solução](./solutions/objects/loop-for-in/02-somando-valores.js)     |
+| 12  |  [ ]   |     🟡      | [Listando Valores](./objects/loop-for-in/02-listando-valores.md)             |    [Ver Solução](./solutions/objects/loop-for-in/02-listando-valores.js)    |
 | 13  |  [ ]   |     🟡      | [Filtrando Propriedades](./objects/loop-for-in/03-filtrando-propriedades.md) | [Ver Solução](./solutions/objects/loop-for-in/03-filtrando-propriedades.js) |
 | 14  |  [ ]   |     🟡      | [Contando Propriedades](./objects/loop-for-in/04-contando-propriedades.md)   | [Ver Solução](./solutions/objects/loop-for-in/04-contando-propriedades.js)  |
 | 15  |  [ ]   |     🟡      | [Verificando Existência](./objects/loop-for-in/05-verificando-existencia.md) | [Ver Solução](./solutions/objects/loop-for-in/05-verificando-existencia.js) |
