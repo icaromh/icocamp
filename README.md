@@ -6,6 +6,11 @@
 
 - [ ] [Callback Functions](./functions/callback-function.md)
 
+## 🔄 Iterators
+
+- [ ] [Filter](./iterators/filter.md)
+- [ ] [Map](./iterators/map.md)
+
 ## 🏆 Desafios
 
 - [ ] [1. Carrinho de compras](./desafios/1.carrinho-compras.md) ([solução](./desafios/1.carrinho-compras.js))
