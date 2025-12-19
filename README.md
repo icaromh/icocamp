@@ -2,6 +2,10 @@
 
 <img src="/docs/cover.png" width="200px">
 
+## Content
+
+- [Getters/Setters](./docs/getters-setters.md)
+
 ## 📦 Objects
 
 |  #  | Status | Dificuldade |      Categoria      | Exercício                                                                    |                                   Solução                                   |
