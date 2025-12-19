@@ -4,7 +4,7 @@ In the world of software development, **Seeding** is a crucial step for setting 
 
 ## What is Data Seeding?
 
-<img src="/docs/images/data-seeding.png" width="200px">
+<img src="/docs/images/data-seeding.png" width="350px">
 
 **Seeding** is the process of providing an initial set of data to a program or a database. Think of it like "planting seeds" in a garden so that there is something to look at and work with as soon as the application starts.
 
