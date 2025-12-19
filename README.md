@@ -5,6 +5,7 @@
 ## Content
 
 - [Getters/Setters](./docs/getters-setters.md)
+- [Data Seeding](./docs/seeding.md)
 
 ## 📦 Objects
 
