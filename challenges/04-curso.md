@@ -32,8 +32,9 @@ Create an object `myBootcamp`. It should have:
 
 - **`addTopic(title, difficulty)`**: **[CREATE]** Calls the factory function and pushes the new object to the `topics` array.
 - **`listAll()`**: **[READ]** Iterates through the array and prints:
-- `- [x] Topic Name (Difficulty)`
-- `- [ ] Topic Name (Difficulty)`
+
+  - `- [x] Topic Name (Difficulty)`
+  - `- [ ] Topic Name (Difficulty)`
 
 - **`markAsComplete(topicTitle)`**: **[UPDATE]** Finds the topic by title and sets `isCompleted` to `true`.
 - **`removeTopic(topicTitle)`**: **[DELETE]** Removes the topic from the array.
