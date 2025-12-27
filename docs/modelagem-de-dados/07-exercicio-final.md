@@ -230,4 +230,4 @@ Ou simplesmente:
 
 No próximo capítulo, você terá uma página com referências (References) para aprofundar esses conceitos.
 
-➡️ [Ir para o próximo capítulo: Referências](./08-referencias.md)
+➡️ [Ir para o próximo capítulo: Referências](./08-references.md)
