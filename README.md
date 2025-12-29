@@ -4,9 +4,10 @@
 
 ## Content
 
-- [Data Modeling with JavaScript — Mini Curso](./docs/modelagem-de-dados/00-summary.md)
 - [Getters/Setters](./docs/getters-setters.md)
 - [Data Seeding](./docs/seeding.md)
+- [Data Modeling with JavaScript — Mini Curso](./docs/modelagem-de-dados/00-summary.md)
+- [JSON e LocalStorage](./docs/json-e-persistencia-de-dados.md)
 
 ## 📦 Objects
 
