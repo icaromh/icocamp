@@ -40,3 +40,5 @@ Muito dos tópicos vão se basear no projeto [Roadmap FullStack](https://roadmap
 - JS:
   - document.addEventListener("domcontentloaded")
   - varios arquivos js com as funcoes quebradinhas
+- Markdown
+  - [Extender o conteúdo de Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
