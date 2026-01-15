@@ -13,7 +13,7 @@
 
 |  #  | Status | Dificuldade |      Categoria      | Exercício                                                                    |                                   Solução                                   |
 | :-: | :----: | :---------: | :-----------------: | :--------------------------------------------------------------------------- | :-------------------------------------------------------------------------: |
-|  1  |  [ ]   |     🟢      |       Básico        | [O Vazio](./objects/basico/01-o-vazio.md)                                    |           [Ver Solução](./solutions/objects/basico/01-o-vazio.js)           |
+|  1  |  [x]   |     🟢      |       Básico        | [O Vazio](./objects/basico/01-o-vazio.md)                                    |           [Ver Solução](./solutions/objects/basico/01-o-vazio.js)           |
 |  2  |  [ ]   |     🟢      |       Básico        | [O Primeiro Objeto](./objects/basico/02-primeiro-objeto.md)                  |       [Ver Solução](./solutions/objects/basico/02-primeiro-objeto.js)       |
 |  3  |  [ ]   |     🟢      |       Básico        | [Acesso com Ponto](./objects/basico/03-acesso-ponto.md)                      |        [Ver Solução](./solutions/objects/basico/03-acesso-ponto.js)         |
 |  4  |  [ ]   |     🟢      |       Básico        | [Acesso com Colchetes](./objects/basico/04-acesso-colchetes.md)              |      [Ver Solução](./solutions/objects/basico/04-acesso-colchetes.js)       |
