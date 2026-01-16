@@ -17,8 +17,8 @@ for (let keys in carro) {
 }
 */
 
-for (let keys in carro) {
-    chaves.push(keys);
+for (let key in carro) {
+    chaves.push(key);
 }
 
 console.log(
