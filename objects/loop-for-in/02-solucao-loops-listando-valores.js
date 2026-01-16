@@ -11,8 +11,8 @@ const carro = {
 
 const valores = [];
 
-for (let keys in carro) {
-    valores.push(carro[keys]);
+for (let key in carro) {
+    valores.push(carro[key]);
 }
 
 // --- Verificação ---
