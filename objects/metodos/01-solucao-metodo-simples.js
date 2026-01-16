@@ -1,7 +1,7 @@
 /* Crie um objeto `cachorro` com uma propriedade `nome` ("Rex") e um método `latir` 
 que retorna a string "Au Au!" */
 
-let cachorro = {
+const cachorro = {
     nome: "Rex",
     latir: function () {
         return "Au Au!";
