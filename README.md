@@ -66,7 +66,7 @@
 
 |  #  | Status | Dificuldade | Exercício                                                                           |                                          Solução                                          |
 | :-: | :----: | :---------: | :---------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------: |
-|  1  |  [ ]   |     🟡      | [Carrinho de compras](./challenges/01-carrinho-compras.md)                          |        [Ver Solução](./solutions/desafios/carrinho-compras/01-carrinho-compras.js)        |
-|  2  |  [ ]   |     🟡      | [Lista de Projetos](./challenges/02-lista-de-projetos.md)                           |       [Ver Solução](./solutions/desafios/lista-de-projetos/01-lista-de-projetos.js)       |
-|  3  |  [ ]   |     🟡      | [Lista de Arquivos por Projeto](./challenges/02.1-lista-de-arquivos-por-projeto.md) | [Ver Solução](./solutions/desafios/lista-de-projetos/02-lista-de-arquivos-por-projeto.js) |
+|  1  |  ✅     |     🟡      | [Carrinho de compras](./challenges/01-carrinho-compras.md)                          |        [Ver Solução](./solutions/desafios/carrinho-compras/01-carrinho-compras.js)        |
+|  2  |  ✅     |     🟡      | [Lista de Projetos](./challenges/02-lista-de-projetos.md)                           |       [Ver Solução](./solutions/desafios/lista-de-projetos/01-lista-de-projetos.js)       |
+|  3  |  ✅     |     🟡      | [Lista de Arquivos por Projeto](./challenges/02.1-lista-de-arquivos-por-projeto.md) | [Ver Solução](./solutions/desafios/lista-de-projetos/02-lista-de-arquivos-por-projeto.js) |
 |  4  |  [ ]   |     🟡      | [Course Progress Tracker](./challenges/04-curso.md)                                 |                   [Ver Solução](./solutions/desafios/curso/solution.js)                   |
