@@ -28,7 +28,7 @@
 | 13  |  ✅   |     🟡      | Iteração (for...in) | [Filtrando Propriedades](./objects/loop-for-in/03-filtrando-propriedades.md) | [Ver Solução](./solutions/objects/loop-for-in/03-filtrando-propriedades.js) |
 | 14  |  ✅   |     🟡      | Iteração (for...in) | [Contando Propriedades](./objects/loop-for-in/04-contando-propriedades.md)   | [Ver Solução](./solutions/objects/loop-for-in/04-contando-propriedades.js)  |
 | 15  |  ✅   |     🟡      | Iteração (for...in) | [Verificando Existência](./objects/loop-for-in/05-verificando-existencia.md) | [Ver Solução](./solutions/objects/loop-for-in/05-verificando-existencia.js) |
-| 16  |  ✅   |     🟡      |   Desafios Reais    | [Conta Bancária](./objects/desafios-reais/01-conta-bancaria.md) cle             |   [Ver Solução](./solutions/objects/desafios-reais/01-conta-bancaria.js)    |
+| 16  |   ✅   |     🟡      |   Desafios Reais    | [Conta Bancária](./objects/desafios-reais/01-conta-bancaria.md)              |   [Ver Solução](./solutions/objects/desafios-reais/01-conta-bancaria.js)    |
 | 17  |   ✅   |     🟡      |   Desafios Reais    | [Lista de Tarefas](./objects/desafios-reais/02-lista-tarefas.md)             |    [Ver Solução](./solutions/objects/desafios-reais/02-lista-tarefas.js)    |
 | 18  |   ✅   |     🟡      |   Desafios Reais    | [Estoque de Loja](./objects/desafios-reais/03-estoque-loja.md)               |    [Ver Solução](./solutions/objects/desafios-reais/03-estoque-loja.js)     |
 | 19  |   ✅   |     🟡      |   Desafios Reais    | [Média do Aluno](./objects/desafios-reais/04-media-aluno.md)                 |     [Ver Solução](./solutions/objects/desafios-reais/04-media-aluno.js)     |
