@@ -1,5 +1,11 @@
 # 🎓 Challenge: Course Progress Tracker
 
+**🐈 Before starting the challange, READ the whole description**
+
+**🐈 Play with your code, in every step use the code you wrote to test it**
+
+
+
 ### The Scenario
 
 You are building the logic for a learning platform. You need an object that stores course topics, tracks completion, and calculates the overall progress percentage dynamically. To keep your code clean, you will use a **Factory Function** to generate your topic objects.
@@ -8,6 +14,7 @@ You are building the logic for a learning platform. You need an object that stor
 
 - Implementing **Factory Functions** to standardize object creation.
 - Manipulating **Arrays of Objects** (CRUD operations).
+  - _CRUD = Create, Read, Update, Delete operations_
 - Understanding **Object References** (updating values by reference).
 - Using **Getters** for dynamic data calculation.
 
