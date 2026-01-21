@@ -22,8 +22,7 @@ let account = {
     //deposit
     deposit: function (amount) {
         this.balance += amount;
-        let currentTransaction = transactionObject('deposit', amount);
-        this.transaction.push(currentTransaction);
+        this.transaction.push(transactionObject('deposit', amount));
     },
     //withdraw
     withdraw: function (amount) {
@@ -31,8 +30,7 @@ let account = {
             return "Não é possível fazer essa operação";
         } else {
             this.balance -= amount;
-            let currentTransaction = transactionObject('withdraw', amount)
-            this.transaction.push(currentTransaction);
+            this.transaction.push(transactionObject('deposit', amount));
         }
     },
     //Return all the transactions
