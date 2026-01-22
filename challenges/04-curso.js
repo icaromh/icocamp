@@ -40,6 +40,10 @@ const myBootcamp = {
                 obj['isCompleted'] = true;
             }
         })
+    },
+    removeTopic: function (topicTitle) {
+        const indice = this.topics.indexOf(topicTitle);
+        this.topics.splice(indice, 1);
     }
 };
 
@@ -58,3 +62,8 @@ myBootcamp.addTopic('Next steps', 'Begginer');
 //listando o curso completo
 myBootcamp.markAsComplete('Introduction');
 myBootcamp.listAll();
+console.log('________')
+myBootcamp.removeTopic('Next steps');
+myBootcamp.listAll();
+
+
