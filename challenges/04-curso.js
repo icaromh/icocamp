@@ -44,6 +44,17 @@ const myBootcamp = {
     removeTopic: function (topicTitle) {
         const indice = this.topics.indexOf(topicTitle);
         this.topics.splice(indice, 1);
+    },
+    get percentageComplete() {
+        const totalTopics = this.topics.length;
+        let completed = 0;
+        this.topics.forEach(element => {
+            if (element.isCompleted) {
+                completed++;
+            }
+        });
+        const percentage = Math.round(((completed / totalTopics) * 100));
+        return `${percentage}% complete`;
     }
 };
 
@@ -59,11 +70,10 @@ myBootcamp.addTopic('Iterators', 'Advanced');
 myBootcamp.addTopic('Objects', 'Advanced');
 myBootcamp.addTopic('Next steps', 'Begginer');
 
-//listando o curso completo
-myBootcamp.markAsComplete('Introduction');
-myBootcamp.listAll();
+//TESTES
+myBootcamp.markAsComplete('Introduction'); // completando o introduction
+myBootcamp.listAll(); //listando o curso completo
 console.log('________')
-myBootcamp.removeTopic('Next steps');
-myBootcamp.listAll();
-
-
+myBootcamp.removeTopic('Next steps'); //removendo tópicos
+myBootcamp.listAll(); // listando de novo para ver com o tópico removido
+console.log(myBootcamp.percentageComplete);
