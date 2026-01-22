@@ -27,14 +27,20 @@ const myBootcamp = {
     },
     listAll: function () {
         this.topics.forEach(element => {
-            //minha ideia é que entra aqui a chamada do markAsComplete e já passa como parâmetro o titulo e checa se é true
-            console.log(`[ ] ${element['title']} (${element['difficulty']});`)
-            //console.log(`[ ] ${this.topics[element][title]} (${this.topics[element][difficulty]});`)
+            if (element['isCompleted']) {
+                console.log(`[X] ${element['title']} (${element['difficulty']});`)
+            } else {
+                console.log(`[ ] ${element['title']} (${element['difficulty']});`)
+            }
         });
     },
-    /* markAsComplete: function () {
-    if (this.)
-    }*/
+    markAsComplete: function (topicTitle) {
+        this.topics.filter(obj => {
+            if (obj['title'] === topicTitle) {
+                obj['isCompleted'] = true;
+            }
+        })
+    }
 };
 
 //adding the data :)
@@ -50,4 +56,5 @@ myBootcamp.addTopic('Objects', 'Advanced');
 myBootcamp.addTopic('Next steps', 'Begginer');
 
 //listando o curso completo
+myBootcamp.markAsComplete('Introduction');
 myBootcamp.listAll();
