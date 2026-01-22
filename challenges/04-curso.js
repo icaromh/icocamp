@@ -27,13 +27,14 @@ const myBootcamp = {
     },
     listAll: function () {
         this.topics.forEach(element => {
+            //minha ideia é que entra aqui a chamada do markAsComplete e já passa como parâmetro o titulo e checa se é true
             console.log(`[ ] ${element['title']} (${element['difficulty']});`)
             //console.log(`[ ] ${this.topics[element][title]} (${this.topics[element][difficulty]});`)
         });
     },
-    markAsComplete: function () {
-
-    }
+    /* markAsComplete: function () {
+    if (this.)
+    }*/
 };
 
 //adding the data :)
