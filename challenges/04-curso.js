@@ -1,0 +1,80 @@
+/*You are building the logic for a learning platform. You need an object that stores course 
+topics, tracks completion, and calculates the overall progress percentage dynamically. 
+To keep your code clean, you will use a Factory Function to generate your topic objects.
+ */
+
+/* PART 1: FACTORY FUNCTIONS
+Create a function topicFactory(title, difficulty) that returns an object with: 
+    - title: The name of the topic.
+    - difficulty: The level (Beginner, Intermediate, or Advanced).
+    - isCompleted: Set to false by default.
+*/
+
+function topicFactory(title, difficulty) {
+    return {
+        title: title,
+        difficulty: difficulty,
+        isCompleted: false
+    };
+}
+
+const myBootcamp = {
+    name: 'PrincessCamp',
+    topics: [], //An array to hold the objects created by your factory.
+    //METHODS
+    addTopic: function (title, difficulty) {
+        this.topics.push(topicFactory(title, difficulty));
+    },
+    listAll: function () {
+        this.topics.forEach(element => {
+            if (element.isCompleted) {
+                console.log(`[X] ${element.title} (${element.difficulty});`)
+            } else {
+                console.log(`[ ] ${element.title} (${element.difficulty});`)
+            }
+        });
+    },
+    markAsComplete: function (topicTitle) {
+        const topic = this.topics.find(obj => obj.title === topicTitle);
+        if (topic) {
+            topic.isCompleted = true;
+        }
+    },
+    removeTopic: function (topicTitle) {
+        const indice = this.topics.findIndex(obj => obj.title === topicTitle);
+        if (indice !== -1) {
+            this.topics.splice(indice, 1);
+        }
+    },
+    get percentageComplete() {
+        const totalTopics = this.topics.length;
+        let completed = 0;
+        this.topics.forEach(element => {
+            if (element.isCompleted) {
+                completed++;
+            }
+        });
+        const percentage = Math.round(((completed / totalTopics) * 100));
+        return `${percentage}% complete`;
+    }
+};
+
+//adding the data :)
+myBootcamp.addTopic('Welcome to Learn JavaScript', 'Beginner');
+myBootcamp.addTopic('Introduction', 'Beginner');
+myBootcamp.addTopic('Conditionals', 'Intermediate');
+myBootcamp.addTopic('Functions', 'Intermediate');
+myBootcamp.addTopic('Scope', 'Advanced');
+myBootcamp.addTopic('Arrays', 'Intermediate');
+myBootcamp.addTopic('Loops', 'Intermediate');
+myBootcamp.addTopic('Iterators', 'Advanced');
+myBootcamp.addTopic('Objects', 'Advanced');
+myBootcamp.addTopic('Next steps', 'Beginner');
+
+//TESTES
+myBootcamp.markAsComplete('Introduction'); // completando o introduction
+myBootcamp.listAll(); //listando o curso completo
+console.log('________')
+myBootcamp.removeTopic('Next steps'); //removendo tópicos
+myBootcamp.listAll(); // listando de novo para ver com o tópico removido
+console.log(myBootcamp.percentageComplete);
