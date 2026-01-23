@@ -1,5 +1,7 @@
 # 📚 Bootcamp Marcie — Semana 2  
 
+[💻 Telecurso: Learn HTML](https://www.codecademy.com/learn/learn-html)
+
 ## HTML: estrutura da aplicação e navegação
 
 Projeto em evolução: **Minha Estante Virtual**
