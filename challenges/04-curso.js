@@ -27,10 +27,10 @@ const myBootcamp = {
     },
     listAll: function () {
         this.topics.forEach(element => {
-            if (element['isCompleted']) {
-                console.log(`[X] ${element['title']} (${element['difficulty']});`)
+            if (element.isCompleted) {
+                console.log(`[X] ${element.title} (${element.difficulty});`)
             } else {
-                console.log(`[ ] ${element['title']} (${element['difficulty']});`)
+                console.log(`[ ] ${element.title} (${element.difficulty});`)
             }
         });
     },
