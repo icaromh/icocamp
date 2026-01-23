@@ -22,8 +22,8 @@ const myBootcamp = {
     name: 'PrincessCamp',
     topics: [], //An array to hold the objects created by your factory.
     //METHODS
-    addTopic: function (tittle, difficulty) {
-        this.topics.push(topicFactory(tittle, difficulty));
+    addTopic: function (title, difficulty) {
+        this.topics.push(topicFactory(title, difficulty));
     },
     listAll: function () {
         this.topics.forEach(element => {
@@ -35,15 +35,16 @@ const myBootcamp = {
         });
     },
     markAsComplete: function (topicTitle) {
-        this.topics.filter(obj => {
-            if (obj['title'] === topicTitle) {
-                obj['isCompleted'] = true;
-            }
-        })
+        const topic = this.topics.find(obj => obj.title === topicTitle);
+        if (topic) {
+            topic.isCompleted = true;
+        }
     },
     removeTopic: function (topicTitle) {
-        const indice = this.topics.indexOf(topicTitle);
-        this.topics.splice(indice, 1);
+        const indice = this.topics.findIndex(obj => obj.title === topicTitle);
+        if (indice !== -1) {
+            this.topics.splice(indice, 1);
+        }
     },
     get percentageComplete() {
         const totalTopics = this.topics.length;
@@ -59,16 +60,16 @@ const myBootcamp = {
 };
 
 //adding the data :)
-myBootcamp.addTopic('Welcome to Learn JavaScript', 'Begginer');
-myBootcamp.addTopic('Introduction', 'Begginer');
+myBootcamp.addTopic('Welcome to Learn JavaScript', 'Beginner');
+myBootcamp.addTopic('Introduction', 'Beginner');
 myBootcamp.addTopic('Conditionals', 'Intermediate');
 myBootcamp.addTopic('Functions', 'Intermediate');
 myBootcamp.addTopic('Scope', 'Advanced');
-myBootcamp.addTopic('Arrays ', 'Intermediate');
-myBootcamp.addTopic('Loops ', 'Intermediate');
+myBootcamp.addTopic('Arrays', 'Intermediate');
+myBootcamp.addTopic('Loops', 'Intermediate');
 myBootcamp.addTopic('Iterators', 'Advanced');
 myBootcamp.addTopic('Objects', 'Advanced');
-myBootcamp.addTopic('Next steps', 'Begginer');
+myBootcamp.addTopic('Next steps', 'Beginner');
 
 //TESTES
 myBootcamp.markAsComplete('Introduction'); // completando o introduction
