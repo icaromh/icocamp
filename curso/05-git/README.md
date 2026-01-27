@@ -1,4 +1,6 @@
-# 📚 Bootcamp Marcie — Semana 5  
+# 📚 Bootcamp Marcie — Semana 5
+
+https://www.codecademy.com/learn/learn-git
 
 ## Git e GitHub: versionamento e histórico do projeto
 
@@ -14,12 +16,12 @@ Ao final desta semana, a aluna será capaz de:
 - Fazer commits conscientes e legíveis
 - Entender Git como parte do fluxo profissional de desenvolvimento
 
-> Nesta semana, **não há código novo da aplicação**.  
+> Nesta semana, **não há código novo da aplicação**.
 > O foco é **organização, histórico e segurança do projeto**.
 
 ## 🧠 Conceito central da semana
 
-> Git não é backup.  
+> Git não é backup.
 > Git é **história do código**.
 
 ## 🧠 O que é Git?
@@ -92,7 +94,9 @@ O arquivo `README.md` é escrito em **Markdown**, uma linguagem simples de forma
 
 ```md
 # Título principal
+
 ## Subtítulo
+
 ### Título menor
 ```
 
@@ -119,6 +123,7 @@ Aqui você explica o projeto com suas próprias palavras.
 Projeto pessoal para organizar livros lidos e não lidos.
 
 ## Funcionalidades
+
 - Cadastro de livros
 - Listagem da estante
 - Estatísticas de leitura
@@ -134,3 +139,16 @@ Projeto versionado no GitHub com README claro e histórico de commits legível.
 - [ ] Diferenciar Git e GitHub
 - [ ] Criar commits claros
 - [ ] Criar README em Markdown
+
+## 📋 Conceitos da semana
+
+- O que é controle de versão
+- Repositórios locais vs remotos
+- git init, clone, status, add, commit
+- Histórico de commits
+- Branches
+- merge e conflitos
+- .gitignore
+- Fluxo básico de colaboração
+- Boas práticas de commit
+- Leitura de código versionado

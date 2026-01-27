@@ -1,4 +1,11 @@
-# 📚 Bootcamp Marcie — Semana 4  
+# 📚 Bootcamp Marcie — Semana 4
+
+[📺 What is DOM (5 min)](https://www.youtube.com/watch?v=KShnPYN-voI)
+[📺 More on DOM (5 min)](https://www.youtube.com/watch?v=NO5kUNxGIu0)
+[📺 Element Selectors (10 min)](https://www.youtube.com/watch?v=FQtjI1PC5Z0)
+[📺 Learn Event Listeners (10 min)](https://www.youtube.com/watch?v=g_vXSKbfUiQ)
+[📺 Learn Event Listeners (5 min)](https://www.youtube.com/watch?v=i_8NQuEAOmg)
+[📺 Localstorage (10 min)](https://www.youtube.com/watch?v=fYTTUBa-lPc)
 
 ## JavaScript no Browser: DOM, eventos e LocalStorage
 
@@ -14,7 +21,7 @@ Ao final desta semana, a aluna será capaz de:
 - Persistir dados no navegador usando **LocalStorage**
 - Conectar formulário, dados e interface
 
-> Nesta semana, o JavaScript **finalmente encontra o HTML**.  
+> Nesta semana, o JavaScript **finalmente encontra o HTML**.
 > O foco é transformar páginas estáticas em **páginas interativas**.
 
 ## 🧠 Conceito central da semana
@@ -94,13 +101,13 @@ Entender o **fluxo da aplicação** é mais importante do que decorar métodos.
 
 ### Fluxo geral da aplicação
 
-1. A página carrega  
-2. JavaScript executa  
-3. Dados são carregados  
-4. Interface é renderizada  
-5. Usuário interage  
-6. Dados mudam  
-7. Interface é atualizada  
+1. A página carrega
+2. JavaScript executa
+3. Dados são carregados
+4. Interface é renderizada
+5. Usuário interage
+6. Dados mudam
+7. Interface é atualizada
 
 ### Fluxo detalhado: cadastro de um livro
 
@@ -150,3 +157,16 @@ Criar uma estante interativa com persistência usando LocalStorage.
 - [ ] Usar eventos
 - [ ] Usar LocalStorage
 - [ ] Entender fluxo de dados
+
+## 📋 Conceitos da Semana
+
+- O que é o DOM
+- Seleção de elementos
+- Manipulação de classes e estilos
+- Eventos (click, submit, input)
+- Prevenção de comportamento padrão
+- Renderização dinâmica
+- Estado da aplicação no front
+- LocalStorage (leitura e escrita)
+- Serialização (JSON)
+- Sincronização entre estado e UI
