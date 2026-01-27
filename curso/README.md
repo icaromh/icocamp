@@ -183,6 +183,10 @@ Tópicos:
 - Camada de dados no backend
 - Persistência real da aplicação
 
+Vídeos (curtos)
+
+- [SQL Explained in 100 Seconds](https://www.youtube.com/watch?v=zsjvFFKOm3c)
+
 ## Semana 9 — React: Fundamentos de Frontend Moderno
 
 - Materiais no repo: [Semana 9](./09-react/README.md)
