@@ -1,6 +1,6 @@
-# 📚 Bootcamp Marcie — Semana 2  
+# 📚 Bootcamp Marcie — Semana 2
 
-[💻 Telecurso: Learn HTML](https://www.codecademy.com/learn/learn-html)
+[💻 Learn HTML](https://www.codecademy.com/learn/learn-html)
 
 ## HTML: estrutura da aplicação e navegação
 
@@ -16,12 +16,12 @@ Ao final desta semana, a aluna será capaz de:
 - Pensar a aplicação como **telas**, não como exercícios isolados
 - Preparar o terreno para CSS e JavaScript nas próximas semanas
 
-> Nesta semana, **não há lógica em JavaScript**.  
+> Nesta semana, **não há lógica em JavaScript**.
 > O foco é **estrutura, conteúdo e navegação**.
 
 ## 🧠 Conceito central da semana
 
-> HTML não é visual.  
+> HTML não é visual.
 > HTML é **estrutura e significado**.
 
 Antes de estilizar ou programar:
@@ -40,10 +40,10 @@ Essas páginas representam **o esqueleto final da aplicação**.
 
 A aplicação terá, no mínimo, as seguintes páginas:
 
-1. **Home** — lista de livros da estante  
-2. **Detalhes do livro** — informações de um livro específico  
-3. **Cadastro de livro** — formulário  
-4. **Cadastro de categoria** — formulário  
+1. **Home** — lista de livros da estante
+2. **Detalhes do livro** — informações de um livro específico
+3. **Cadastro de livro** — formulário
+4. **Cadastro de categoria** — formulário
 
 Cada página será um arquivo `.html`.
 
@@ -65,8 +65,7 @@ Todo arquivo HTML deve conter:
     <meta charset="UTF-8" />
     <title>Minha Estante Virtual</title>
   </head>
-  <body>
-  </body>
+  <body></body>
 </html>
 ```
 
@@ -123,12 +122,13 @@ O mesmo vale para várias outras tags comuns:
 - header → cabeçalho
 
 Pensar no significado do nome da tag, em vez de tentar decorar, facilita muito a memorização e a leitura de código HTML.
+
 </details>
 
 ```html
 <ul>
-    <li>Dom Casmurro</li>
-    <li>A Hora da Estrela</li>
+  <li>Dom Casmurro</li>
+  <li>A Hora da Estrela</li>
 </ul>
 ```
 
@@ -169,3 +169,14 @@ Criar uma aplicação com 4 páginas HTML conectadas entre si usando navegação
 - [ ] Uso correto de HTML semântico
 - [ ] Navegação funcional
 - [ ] Estrutura clara das páginas
+
+## 📋 Conceitos da semana
+
+- Estrutura básica de um documento HTML
+- HTML semântico (header, main, section, article, footer)
+- Formulários e inputs
+- Listas e tabelas
+- Atributos globais e acessibilidade básica
+- Separação de conteúdo e comportamento
+- Organização de arquivos (index.html, assets, scripts)
+- Boas práticas de marcação

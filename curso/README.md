@@ -1,6 +1,6 @@
 # 📚 Bootcamp Marcie — Fullstack do Zero ao Deploy
 
-Projeto central do bootcamp: **Minha Estante Virtual**  
+Projeto central do bootcamp: **Minha Estante Virtual**
 Uma aplicação web inspirada no Goodreads, evoluída incrementalmente ao longo de 12 semanas.
 
 ## 🎯 Objetivo do Bootcamp
@@ -268,7 +268,7 @@ Ao final do bootcamp, a aluna será capaz de:
 
 ### Entrega final
 
-👉 **Minha Estante Virtual**  
+👉 **Minha Estante Virtual**
 Aplicação fullstack, online e documentada.
 
 ## 🧠 Princípio pedagógico do bootcamp
@@ -276,3 +276,22 @@ Aplicação fullstack, online e documentada.
 > Nunca ensinar uma abstração antes da dor que ela resolve.
 
 Esse bootcamp prioriza entendimento real, prática contínua e construção de autonomia.
+
+# 📺 Recursos
+
+- [ ] [Semana 1 - Learn Javascript](https://www.codecademy.com/learn/introduction-to-javascript)
+- [ ] [Semana 2 - Learn HTML](https://www.codecademy.com/learn/learn-html)
+- [ ] [Semana 3 - Learn CSS](https://www.codecademy.com/learn/learn-css)
+- [ ] [Semana 5 - Learn Git](https://www.codecademy.com/learn/learn-git)
+- [ ] [Semana 6 - Learn Async JS](https://www.codecademy.com/learn/asynchronous-javascript)
+- [ ] [Semana 7 - Learn NodeJS](https://www.codecademy.com/learn/learn-node-js)
+- [ ] [Semana 7 - Learn ExpressJS](https://www.codecademy.com/learn/learn-express)
+- [ ] [Semana 8 - Learn Intro to SQL](https://www.codecademy.com/learn/intro-to-sql)
+- [ ] [Semana 8 - Learn design databases](https://www.codecademy.com/learn/paths/design-databases-with-postgresql)
+- [ ] [Semana 9 - Learn React](https://www.codecademy.com/learn/react-101)
+- [ ] [Semana 10 - Learn React Avançado](https://www.codecademy.com/learn/react-101)
+- [ ] [Semana 11 - Learn React Avançado](https://www.codecademy.com/learn/react-101)
+
+## 📋 Recursos
+
+- [Javascript Cheat Sheet](https://www.freemote.com/javascript-cheat-sheet)

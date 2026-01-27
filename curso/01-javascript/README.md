@@ -1,5 +1,7 @@
 # 📚 Bootcamp Marcie — Semana 1
 
+[💻 Learn Javscript](https://www.codecademy.com/learn/introduction-to-javascript)
+
 ## JavaScript 1: dados, lógica e leitura de código
 
 Projeto em evolução: **Minha Estante Virtual**
@@ -337,3 +339,17 @@ Nesta semana:
 
 > A interface virá depois.
 > Primeiro, aprendemos a **pensar em dados**.
+
+## 📋 Conceitos da Semana
+
+- Pensamento computacional
+- Decomposição de problemas
+- Variáveis e tipos primitivos
+- Objetos e arrays
+- Controle de fluxo (if / else)
+- Laços (for, while, for...of)
+- Funções (declaração, parâmetros, retorno)
+- Algoritmos simples (contagem, busca, agregação)
+- Métodos de array: map, filter, reduce
+- Imutabilidade vs mutabilidade
+- Leitura e escrita de dados em estruturas JS

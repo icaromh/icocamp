@@ -1,4 +1,6 @@
-# 📚 Bootcamp Marcie — Semana 6  
+# 📚 Bootcamp Marcie — Semana 6
+
+https://www.codecademy.com/learn/asynchronous-javascript
 
 ## HTTP, Fetch API e REST: buscando dados fora da aplicação
 
@@ -20,9 +22,9 @@ Ao final desta semana, a aluna será capaz de:
 
 > A web funciona como uma conversa entre cliente e servidor.
 
-- **Cliente** → navegador  
-- **Servidor** → outro computador que responde pedidos  
-- **HTTP** → regras dessa conversa  
+- **Cliente** → navegador
+- **Servidor** → outro computador que responde pedidos
+- **HTTP** → regras dessa conversa
 
 ## 🧠 O que é HTTP?
 
@@ -60,14 +62,14 @@ Request (pedido)  →  Server  →  Response (resposta)
 
 ### 2️⃣ Métodos HTTP (o mínimo necessário)
 
-- **GET** → buscar dados  
-- **POST** → enviar/criar dados  
-- **PUT / PATCH** → atualizar dados  
-- **DELETE** → remover dados  
+- **GET** → buscar dados
+- **POST** → enviar/criar dados
+- **PUT / PATCH** → atualizar dados
+- **DELETE** → remover dados
 
 Nesta semana, o foco é **GET**.
 
-📘 Material complementar — HTTP methods e REST  
+📘 Material complementar — HTTP methods e REST
 <https://www.codecademy.com/learn/learn-javascript-requests>
 
 ### 3️⃣ O que é uma API?
@@ -88,7 +90,7 @@ Buscar dados em JavaScript usando requisições HTTP.
 
 Forma mais legível de lidar com código assíncrono.
 
-🎥 Async e Promises — JavaScript  
+🎥 Async e Promises — JavaScript
 <https://www.youtube.com/watch?v=ZYb_ZU8LNxs>
 
 ## 🔄 Fluxo típico ao consumir uma API
@@ -113,8 +115,8 @@ Nesta semana, você irá criar uma **página de busca de livros** que consome da
 
 ### Requisitos obrigatórios
 
-- Utilizar a **Open Library Search API** para buscar livros por autora  
-  - URL base:  
+- Utilizar a **Open Library Search API** para buscar livros por autora
+  - URL base:
     `https://openlibrary.org/search.json`
   - O valor digitado no **campo de busca** deve ser usado como parâmetro `q`, permitindo assim que se busque por um título de livro ou nome de autor.
     - Exemplo: `https://openlibrary.org/search.json?q="emily henry"`
@@ -144,3 +146,17 @@ Nesta semana, você irá criar uma **página de busca de livros** que consome da
 - [ ] Leitura do valor do input
 - [ ] Uso de fetch com async / await
 - [ ] Atualização da interface com base no estado da requisição
+
+## 📋 Conceitos da semana
+
+- O que é HTTP
+- Request vs response
+- Métodos HTTP (GET, POST, PUT, DELETE)
+- Status codes
+- Headers
+- JSON como formato de troca de dados
+- O que é uma API REST
+- Fetch API
+- Promises e async/await
+- Tratamento de erros em requisições
+- Consumo de APIs externas

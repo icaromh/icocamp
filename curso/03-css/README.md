@@ -1,4 +1,6 @@
-# 📚 Bootcamp Marcie — Semana 3  
+# 📚 Bootcamp Marcie — Semana 3
+
+[💻 Learn CSS](https://www.codecademy.com/learn/learn-css)
 
 ## CSS: layout, legibilidade e organização visual
 
@@ -14,12 +16,12 @@ Ao final desta semana, a aluna será capaz de:
 - Aplicar hierarquia visual para melhorar a leitura
 - Organizar arquivos CSS de forma clara
 
-> Nesta semana, **não há JavaScript novo**.  
+> Nesta semana, **não há JavaScript novo**.
 > O foco é **visual, clareza e organização**.
 
 ## 🧠 Conceito central da semana
 
-> CSS não é decoração.  
+> CSS não é decoração.
 > CSS é **comunicação visual**.
 
 Um bom CSS ajuda o usuário a:
@@ -38,8 +40,8 @@ CSS é a sigla para **Cascading Style Sheets**, que em português significa algo
 
 O papel do CSS é **controlar como o conteúdo HTML é apresentado**, sem misturar aparência com estrutura.
 
-> HTML diz *o que é* cada coisa.  
-> CSS diz *como isso aparece*.
+> HTML diz _o que é_ cada coisa.
+> CSS diz _como isso aparece_.
 
 ## 🧩 Domínio do problema: deixando a estante legível
 
@@ -101,8 +103,12 @@ Todo elemento é uma caixa:
 Quando várias regras tentam estilizar o mesmo elemento, o navegador segue uma **ordem de prioridade**.
 
 ```css
-p { color: blue; }
-p { color: green; }
+p {
+  color: blue;
+}
+p {
+  color: green;
+}
 ```
 
 A última regra vence.
@@ -111,15 +117,21 @@ A última regra vence.
 
 Hierarquia básica:
 
-1. Elementos  
-2. Classes  
-3. IDs  
+1. Elementos
+2. Classes
+3. IDs
 4. Inline style
 
 ```css
-p { color: blue; }
-.book-card { color: green; }
-#featured { color: red; }
+p {
+  color: blue;
+}
+.book-card {
+  color: green;
+}
+#featured {
+  color: red;
+}
 ```
 
 ## ⚠️ Boas práticas
@@ -137,3 +149,16 @@ Organizar visualmente a aplicação usando um único arquivo CSS, com layout con
 - [ ] Entender o papel do CSS
 - [ ] Explicar cascading
 - [ ] Diferenciar especificidade
+
+## 📋 Conceitos da Semana
+
+- Box model
+- Posicionamento (relative, absolute, fixed)
+- Flexbox
+- Grid (introdução)
+- Tipografia e hierarquia visual
+- Cores e contraste
+- Responsividade (media queries)
+- Mobile-first
+- Organização de CSS
+- Legibilidade e UX básico
