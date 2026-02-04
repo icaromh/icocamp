@@ -30,28 +30,6 @@ Antes de estilizar ou programar:
 - organizamos o conteúdo de forma clara
 - pensamos como o usuário navega
 
-## 🧩 Domínio do problema: telas da Estante Virtual
-
-Nesta semana, a aplicação será composta por **páginas estáticas**, com conteúdo fixo.
-
-Essas páginas representam **o esqueleto final da aplicação**.
-
-## 🗂️ Páginas que farão parte do projeto
-
-A aplicação terá, no mínimo, as seguintes páginas:
-
-1. **Home** — lista de livros da estante
-2. **Detalhes do livro** — informações de um livro específico
-3. **Cadastro de livro** — formulário
-4. **Cadastro de categoria** — formulário
-
-Cada página será um arquivo `.html`.
-
-<details>
-    <summary>💡 Fun fact — Nem toda página web é .html</summary>
-Quando você vê um arquivo .html, geralmente está lidando com um conteúdo estático: o navegador recebe o arquivo pronto e apenas exibe o que está escrito ali. Mas na web também existem páginas com outras extensões, como .php, .asp, .aspx, .jsp ou até URLs sem extensão aparente. Esses formatos indicam que, antes de chegar ao navegador, a página passou por um servidor que executou código (por exemplo, em PHP, C#, Java ou JavaScript) para gerar o HTML dinamicamente. Ou seja: o navegador sempre recebe HTML, mas esse HTML pode ter sido criado “na hora”, com base em dados de um banco, usuário logado ou regras de negócio. Encontrar uma página com outro formato normalmente significa que existe lógica no servidor por trás daquela tela, e não apenas um arquivo estático sendo exibido.
-</details>
-
 ## 📘 Conteúdos da semana (com intenção pedagógica)
 
 ### 1️⃣ Estrutura básica de um documento HTML
@@ -162,7 +140,25 @@ Pensar no significado do nome da tag, em vez de tentar decorar, facilita muito a
 
 ## 🏁 Desafio da semana
 
-Criar uma aplicação com 4 páginas HTML conectadas entre si usando navegação básica e conteúdo fictício.
+Nesta semana, a aplicação será composta por **páginas estáticas**, com conteúdo fixo.
+Essas páginas representam **o esqueleto final da aplicação**.
+
+
+## 🗂️ Páginas que farão parte do projeto
+
+Criar uma aplicação com 3 páginas HTML conectadas entre si usando navegação básica e conteúdo fictício.
+
+1. **Home** — lista de livros da estante
+2. **Detalhes do livro** — informações de um livro específico
+3. **Cadastro de livro** — formulário
+
+Cada página será um arquivo `.html`.
+
+<details>
+    <summary>💡 Fun fact — Nem toda página web é .html</summary>
+> Quando você vê um arquivo .html, geralmente está lidando com um conteúdo estático: o navegador recebe o arquivo pronto e apenas exibe o que está escrito ali. Mas na web também existem páginas com outras extensões, como .php, .asp, .aspx, .jsp ou até URLs sem extensão aparente. Esses formatos indicam que, antes de chegar ao navegador, a página passou por um servidor que executou código (por exemplo, em PHP, C#, Java ou JavaScript) para gerar o HTML dinamicamente. Ou seja: o navegador sempre recebe HTML, mas esse HTML pode ter sido criado “na hora”, com base em dados de um banco, usuário logado ou regras de negócio. Encontrar uma página com outro formato normalmente significa que existe lógica no servidor por trás daquela tela, e não apenas um arquivo estático sendo exibido.
+</details>
+
 
 ## ✅ Critérios de conclusão
 
