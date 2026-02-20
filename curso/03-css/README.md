@@ -2,6 +2,19 @@
 
 [💻 Learn CSS](https://www.codecademy.com/learn/learn-css)
 
+---
+
+## Material auxiliar
+
+- [“Everything You Know About Web Design Just Changed” by Jen Simmons](https://www.youtube.com/watch?v=jBwBACbRuGY&t=1s) - Uma caminhada por como o web design foi desde o imprincípio até a chegada de Grid Layout. É um ótimo material pra entender o contexto de cada mudança (table -> tableless(divs) -> flex -> grid).
+- [CSS Grid mini curso](https://cssgrid.io/)
+- [Grid Garden](https://cssgridgarden.com/) - Joguinho pra praticar mover elementos usando CSS Grid
+- [CSS Flexbox mini curso](https://flexbox.io/)
+- [Flexbox Groggy](https://flexboxfroggy.com/) - Joguinho pra praticar mover elementos usando Flexbox.
+- [1-line Layouts](https://1linelayouts.com/) - Colinha de como fazer layouts em poucas linhas de CSS. Os mais comuns estão aqui.
+- [Curso para transformar layouts em HTML](https://www.figma.com/community/file/1154460535210746004/interactive-css-course)
+- [Curso interativo de HTML e CSS com feedback](https://scrimba.com/fullstack-path-c0fullstack)
+
 ## CSS: layout, legibilidade e organização visual
 
 Projeto em evolução: **Minha Estante Virtual**
