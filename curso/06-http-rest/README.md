@@ -160,3 +160,15 @@ Nesta semana, você irá criar uma **página de busca de livros** que consome da
 - Promises e async/await
 - Tratamento de erros em requisições
 - Consumo de APIs externas
+
+## 🧪 Exercícios
+
+Pratique os conceitos da semana com os exercícios abaixo (use APIs reais, sem configuração de servidor):
+
+| # | Dificuldade | Exercício |
+|:-:|:-----------:|:----------|
+| 1 | 🟢 | [Fetch Básico](../../../exercises/http/01-fetch-basico.md) |
+| 2 | 🟡 | [Tratamento de Erros](../../../exercises/http/02-tratamento-de-erros.md) |
+| 3 | 🟡 | [Buscando e Filtrando Resultados](../../../exercises/http/03-buscar-e-filtrar.md) |
+| 4 | 🟡 | [Requisição POST](../../../exercises/http/04-requisicao-post.md) |
+| 5 | 🔴 | [Requisições Paralelas com Promise.all](../../../exercises/http/05-requisicoes-paralelas.md) |
