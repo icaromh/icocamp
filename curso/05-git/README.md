@@ -129,6 +129,13 @@ Projeto pessoal para organizar livros lidos e não lidos.
 - Estatísticas de leitura
 ```
 
+## 🛠️ Material Extra e Prática
+
+Para fixar o aprendizado, consulte o nosso **Cheat Sheet** e faça os **exercícios práticos**:
+
+- 🚀 [Cheat Sheet: Comandos Mais Utilizados do Git](./comandos.md)
+- 🏋️ [Exercícios Práticos de Git](../../exercises/git/README.md)
+
 ## 🏁 Desafio da semana
 
 Projeto versionado no GitHub com README claro e histórico de commits legível.
