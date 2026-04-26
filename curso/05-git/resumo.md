@@ -1,5 +1,7 @@
 # Semana 5 – Git e GitHub: Controle de Versão e Fluxo de Trabalho
 
+> ✍️ **Aluna:** após concluir a semana, preencha este resumo com **suas próprias palavras**. Não precisa ser perfeito — o objetivo é fixar o que você aprendeu explicando como se fosse ensinar alguém.
+
 ## O que é controle de versão
 
 Controle de versão permite **registrar mudanças no código ao longo do tempo**, possibilitando:

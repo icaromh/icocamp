@@ -101,6 +101,34 @@ git pull
 ```
 Baixa e aplica as alterações do repositório remoto no seu repositório local.
 
+## 7️⃣ Fluxo de Pull Request (PR)
+
+```bash
+git checkout -b feature/minha-feature
+```
+Cria uma branch local para a nova feature.
+
+```bash
+git push -u origin feature/minha-feature
+```
+Publica a branch no GitHub. Após isso, o GitHub exibe um link para abrir o PR.
+
+```bash
+git checkout main
+git pull
+```
+Após o PR ser mergeado no GitHub, atualiza o local.
+
+```bash
+git branch -d feature/minha-feature
+```
+Deleta a branch local (já foi mergeada — não precisa mais dela).
+
+```bash
+git push origin --delete feature/minha-feature
+```
+Deleta a branch também no GitHub (opcional se já deletou pela interface).
+
 ---
 
 > 💡 **Dica de Ouro:** Se bater a dúvida, respire, digite `git status` e leia o que o Git está dizendo. Ele costuma dar dicas exatas do que você precisa fazer a seguir!
