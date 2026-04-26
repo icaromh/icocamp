@@ -1,0 +1,10 @@
+/**
+ * Solução: {{TITULO_EXERCICIO}}
+ * 
+ * {{CONTEXTO_BREVE_SOLUCAO}}
+ */
+
+{{CODIGO_SOLUCAO}}
+
+// Teste
+{{CHAMADA_TESTE_SOLUCAO}}
