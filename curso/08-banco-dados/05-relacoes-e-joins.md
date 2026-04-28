@@ -29,17 +29,19 @@ Para fazer isso funcionar, usamos a **Chave Estrangeira (Foreign Key)**.
 
 ### Exemplo de Estrutura:
 
-**Tabela: canais**
-| id | nome |
-| :--- | :--- |
-| 1 | Pausa para o Chá |
-
-**Tabela: videos**
-| id | titulo | canal_id |
-| :--- | :--- | :--- |
-| 10 | Resenha: Beach Read | 1 |
-| 11 | Resenha: Book Lovers | 1 |
-| 12 | Top 5 Romances | 1 |
+```mermaid
+erDiagram
+    CANAL ||--o{ VIDEO : possui
+    CANAL {
+        int id PK
+        string nome
+    }
+    VIDEO {
+        int id PK
+        string titulo
+        int canal_id FK
+    }
+```
 
 > O `canal_id` na tabela de vídeos é a nossa **Chave Estrangeira**. Ela "aponta" para o ID 1 da tabela de canais.
 
