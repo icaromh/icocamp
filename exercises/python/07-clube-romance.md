@@ -43,3 +43,8 @@ classDiagram
 ```
 
 </details>
+
+---
+
+**Solução:** [Ver código da solução](./solutions/07-clube-romance/)
+

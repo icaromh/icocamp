@@ -57,3 +57,8 @@ classDiagram
 ```
 
 </details>
+
+---
+
+**Solução:** [Ver código da solução](./solutions/11-batalha-audiencia.py)
+

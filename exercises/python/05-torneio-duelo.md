@@ -56,3 +56,8 @@ classDiagram
 ```
 
 </details>
+
+---
+
+**Solução:** [Ver código da solução](./solutions/05-torneio-duelo.py)
+

@@ -62,3 +62,8 @@ classDiagram
 ```
 
 </details>
+
+---
+
+**Solução:** [Ver código da solução](./solutions/12-festival-cinema.py)
+

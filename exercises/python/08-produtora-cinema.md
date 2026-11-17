@@ -42,3 +42,8 @@ classDiagram
 ```
 
 </details>
+
+---
+
+**Solução:** [Ver código da solução](./solutions/08-produtora-cinema.py)
+

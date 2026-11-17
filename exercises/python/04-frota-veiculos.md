@@ -64,3 +64,8 @@ classDiagram
 ```
 
 </details>
+
+---
+
+**Solução:** [Ver código da solução](./solutions/04-frota-veiculos.py)
+

@@ -63,3 +63,8 @@ classDiagram
 ```
 
 </details>
+
+---
+
+**Solução:** [Ver código da solução](./solutions/09-elenco-novela.py)
+

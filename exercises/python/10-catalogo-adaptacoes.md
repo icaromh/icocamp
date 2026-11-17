@@ -69,3 +69,8 @@ classDiagram
 ```
 
 </details>
+
+---
+
+**Solução:** [Ver código da solução](./solutions/10-catalogo-adaptacoes.py)
+
